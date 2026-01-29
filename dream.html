@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>When you are not able to sleep</title>
+  <style>
+    :root{
+      --box-width: 500px;
+      --box-padding: 28px;
+      --box-radius: 18px;
+      --backdrop-color: rgba(0,0,0,0.45);
+      --accent: #ffd166;
+      --text-color: #fff;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+
+    html,body{height:100%;margin:0;overflow:hidden;}
+    body{
+      background-image: url('https://i.pinimg.com/1200x/e6/6e/33/e66e33b19d374dd7c0610776ee7bca30.jpg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:32px;
+    }
+
+    .overlay{
+      position:fixed;inset:0;background:linear-gradient(180deg, rgba(0,0,0,0.18), rgba(0,0,0,0.38));
+      pointer-events:none;
+    }
+
+    .card{
+      width: min(var(--box-width), 92%);
+      padding: var(--box-padding);
+      border-radius: var(--box-radius);
+      background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+      box-shadow: 0 10px 30px rgba(2,6,23,0.55), inset 0 1px 0 rgba(255,255,255,0.02);
+      backdrop-filter: blur(6px) saturate(120%);
+      color: var(--text-color);
+      position:relative;
+      z-index:1;
+      border: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .card-header{
+      display:flex;align-items:center;gap:12px;margin-bottom:10px;
+    }
+
+    .badge{
+      width:14px;height:14px;border-radius:50%;background:var(--accent);box-shadow:0 2px 6px rgba(0,0,0,0.25);
+    }
+
+    h1{
+      font-size:20px;margin:0;font-weight:700;color: #fff;
+      text-shadow: 0 1px 0 rgba(0,0,0,0.6);
+    }
+
+    p{
+      margin:12px 0 0;line-height:1.5;color: #e8eef6;font-size:15px;
+    }
+
+    @media (max-width:420px){
+      :root{--box-padding:20px}
+      h1{font-size:18px}
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay" aria-hidden="true"></div>
+
+  <article class="card" role="region" aria-labelledby="card-title">
+
+    <p>
+      Shubhuu ninni ni aari? suno meri baat zadda sochne ki zrurat ni hai bht zadda sochte ho tum paglu hdd se zadda ha achi baat hai sochne but kbhi kbhi hmari health pe havi hone lgta yeh sbb 
+      Dekho mai kahi ni jari yehi hu ha gltiya hoti hai bht merese tum meri bhlai ke liye hi bolte ho even ik but vhi paglo valli adat meri ldne lgg jati hehe. kbhi kbhi available bhi ni hoti jaise jbb ghar jati 
+      but shubhu meko family ko bhi to time dena hai na yk mai tumhari hi hu nhi jaugi kisi aur paas bss family ko bhi time dena chahiye tum bhi to dete na jbb ghar jate but ldkiyo ke parents r stricter than boys
+      chlo yeh sbb chodo abb aesa socho mai tumhare paas hi hu pillow pdda sath me to usko hug krlo and sochna bnd i'll massage ur head ruffle ur hair ache se hug krke rkha like ur the only person i care about sch 
+      bhi hai vesse hehe cutiee kissed on ur forehead abb dheere dheere tumhe neend aari tum sore mera hath abhi bhi tumhare ballo me hai hath fer ri aaram se pyaar se abb so jao sbb thik hai mai yehi hu tumhare paas ache se so jao ache bchee ki tra sbb thik hai mai hu tumhare paas bss health ka dhyaan rkho ache se soya kro 8 ghante ki neend roz leni na to so jao ache se abb 🫂 
+    </p>
+  </article>
+
+</body>
+</html>
